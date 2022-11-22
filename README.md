@@ -15,5 +15,8 @@ configurando node , instalando TypeScript e configurando servers
 <li>Mais configurações do compilador tsc
 <li>Retorno de método explícito
 <li>Conversão de valores da interface do usuário
-
+ 
+ <br>
+ <br>
+  
 <img src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-blue">
