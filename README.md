@@ -45,3 +45,27 @@ export class Negociacoes {
 tipo *Generic* e *ReadonlyArray*
 
 ```
+#### Sugar Syntax no TS exemplos:
+```
+ lista(): ReadonlyArray <Negociacao> {
+        return this.negociacoes;
+        
+ lista(): readonly Negociacao[] {
+        return this.negociacoes;      
+
+Utilizando o metodo readonly como tipagem de maneira mais simplificada.
+```
+```
+constructor(data: Date, quantidade: number, valor: number) {
+        this._data = data;
+        this._quantidade = quantidade;
+        this._valor = valor;
+        
+        constructor(
+        private _data: Date,
+        private _quantidade: number,
+        private _valor: number
+        ) {}
+
+Utilizando o modificador private diretamente no construtor, simplificando a tipando os parametros.
+```
