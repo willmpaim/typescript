@@ -67,5 +67,5 @@ constructor(data: Date, quantidade: number, valor: number) {
         private _valor: number
         ) {}
 
-Utilizando o modificador private diretamente no construtor, simplificando a tipando os parametros.
+Utilizando o modificador private diretamente no construtor, simplificando e tipando os parametros.
 ```
